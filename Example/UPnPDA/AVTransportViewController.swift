@@ -81,7 +81,7 @@ class AVTransportViewController: UIViewController {
         coverView.addSubview(timeLabel)
         view.addSubview(stopBtn)
         layoutUi()
-        
+        //dump(deviceDesDoc)
         if let ddd = deviceDesDoc {
             avtransport.control(ddd)
             

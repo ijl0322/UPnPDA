@@ -134,11 +134,11 @@ public class UPnPDeviceControlPoint: NSObject {
     public override init() {}
     
     public func invoke(action: UPnPAction) {
-       
         var upnpAction = action
         if let request = upnpAction.request() {
             let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
                 if error != nil {
+                    print(error)
                     self.faild(error!)
                 }
                 if let data = data {

@@ -5,7 +5,7 @@ PODS:
     - ReachabilitySwift
   - ReachabilitySwift (5.0.0)
   - SnapKit (4.2.0)
-  - UPnPDA (1.1.0):
+  - UPnPDA (1.1.2):
     - AEXML
     - CocoaAsyncSocket
 
@@ -32,8 +32,8 @@ SPEC CHECKSUMS:
   HiNetWork: 04053dcb63100a3981ebc7f1d9717874d70462e4
   ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
-  UPnPDA: 0032f5f3e386908d00f3d62d570e3b3c89be2e2d
+  UPnPDA: ac64cf56a45c36126b64cd341749937ec774bccf
 
 PODFILE CHECKSUM: 2612afc07bfbfdff56482d724d22e5006d0adf84
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.11.3
