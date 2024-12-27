@@ -1,0 +1,4 @@
+curl -K browse.conf --data-binary @./browseroot.data
+curl -K browse.conf --data-binary @./browseroot.data
+curl -K browse.conf --data-binary @./browseDir.data
+curl -K browse.conf --data-binary @./browseMovies.data
